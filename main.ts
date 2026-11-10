@@ -60,7 +60,7 @@ function writeTagline(tagline: string, outputDir: string): void {
  * so the grader can distinguish a bad entry from a successful one.
  */
 function main(): void {
-  const tagline = 'Enter your agent. Climb the ranks. Claim the prize.';
+  const tagline = 'Make agents. Make money.';
 
   const result = validateTagline(tagline);
   if (!result.ok) {
